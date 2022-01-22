@@ -1,5 +1,6 @@
 /* Style sheet */
 
+/* CSS for whole page */
 * {
     font-family: 'Inconsolata', monospace;
     margin: auto;
@@ -10,30 +11,38 @@ h1 {
     font-size: 5em;
     padding-bottom: 15px;
 }
+
 body {
     background-color: gainsboro;
 }
+
 img {
     width: auto;
     height: 300px;
     margin: auto;
     display: block;
 }
+
+/* Make it roundy */
 .recipe_photo {
     border-radius: 25px;
 }
+
 .information {
     width: 50%;
     margin: auto;
     padding: 20px;
 }
+
 p {
     text-align: center;
     padding: 10px;
 }
+
 .ingredients {
     padding: 20px;
 }
+
 .directions {
     padding: 20px;;
 }
